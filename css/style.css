@@ -1,0 +1,32 @@
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.banner {
+    background-color: rgb(209, 34, 34);
+    content: none;
+    color: #fff;
+    padding: 15px 5px;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    border-bottom: rgb(0, 0, 0) solid 3px;
+}
+
+.menu {
+    display: flex;
+    background-color: #000252;
+    padding: 10px;
+    justify-content: space-evenly;
+    border-bottom: rgb(0, 0, 0) solid 3px;
+}
+
+.menu li.main-menu {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
